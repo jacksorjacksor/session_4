@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Login {
     public static void main(String[] args) throws IOException {
+
+        // .next() on scanner objects SPLITS BY WHITE SPACE
+
         File myObj = new File("users.txt");
         Scanner myReader = new Scanner(myObj);
         Scanner userInput = new Scanner(System.in);
